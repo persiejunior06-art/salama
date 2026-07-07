@@ -94,12 +94,7 @@ export default function Home() {
         transition: 'all 0.4s ease'
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, cursor: 'pointer' }} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <div style={{
-            width: 34, height: 34, borderRadius: 10,
-            background: 'linear-gradient(135deg, #0a0a0a, #3a3a3a)',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            fontSize: 17, boxShadow: '0 2px 8px rgba(0,0,0,0.15)'
-          }}>🛡</div>
+         
           <img src="/logo.png" alt="Vanta" style={{ height: 36, width: 'auto' }} />
         </div>
 
