@@ -100,7 +100,7 @@ export default function Home() {
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             fontSize: 17, boxShadow: '0 2px 8px rgba(0,0,0,0.15)'
           }}>🛡</div>
-          <span style={{ fontSize: 17, fontWeight: 700, letterSpacing: -0.5, color: '#0a0a0a' }}>Vanta</span>
+          <img src="/logo.png" alt="Vanta" style={{ height: 36, width: 'auto' }} />
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
